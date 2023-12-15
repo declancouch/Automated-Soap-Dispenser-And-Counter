@@ -4,7 +4,7 @@ This repository contains my project for the Embedded Systems Design course. It i
 
 **Demonstration Video:**
 
-![IMG_4431](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/120cb329-770d-437d-a59b-06715bf82058)
+
 
 ### Demonstration Hardware
 - Arduino Board (Model)
@@ -42,8 +42,8 @@ The best way to go about building the Automated Soap Dispenser And Counter is th
 ### 2. Hardware Instructions for The Automated Soap Dispenser & Counter
 
 Using the provided schematic shown below wire the Arduino exactly how it's shown.
-![Servo Motor (1)](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/a4dafa0f-794a-4ba5-a9ab-854629d307f4)
-![hardschematic](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/39638d9c-53da-4409-b80f-6ea97efe60c5)
+![Servo Motor (1)](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/8a729bc1-4a63-4fd9-bb49-1413506816e6)
+![hardschematic](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/cff6ab99-e802-40eb-b9fc-b542e1ba81ac)
 
 
 
@@ -53,7 +53,7 @@ Using the provided schematic shown below wire the Arduino exactly how it's shown
 - Using a wire, plug one end of the wire into the ground side of the power supply and the other end to the ground of the Arduino. You must incorporate this or your circuit will be short and not work
 - Press the white button on the power supply to turn it on
   
-![9vbatterysetup](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/43a38a4f-2bfe-40da-8f07-f29ca6f1323c)
+![9vbatterysetup](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/96e0f5af-a386-4aa5-b7e9-33c16bc0f541)
 
 
 #### Servo:

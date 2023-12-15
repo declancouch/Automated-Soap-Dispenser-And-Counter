@@ -38,7 +38,6 @@ The best way to go about building the Automated Soap Dispenser And Counter is th
 **NOT following this process will make the debugging process much more difficult** 
 
 ---
----
 
 
 ### 1. Software Instructions for The Automated Soap Dispenser & Counter

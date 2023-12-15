@@ -2,6 +2,8 @@
 
 This repository contains my project for the Embedded Systems Design course. It involves an Arduino-based automated soap dispenser that counts usage and has an LED indicator system for operational status.
 
+![IMG_4431](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/981b114b-daa5-4d49-abfb-55c60d34edd8)
+
 **Demonstration Video:**
 
 
@@ -87,8 +89,8 @@ Using the provided schematic shown below wire the Arduino exactly how it's shown
 - Connect Segment F on the HEX display to Pin 10 on the Arduino 
 - Connect Segment A on the HEX display to Pin 11 on the Arduino 
 - Connect Segment Digit Pin 1 (D2) on the HEX display to Pin 12 on the Arduino
-  ![7segmentdisplayconfig](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/db368da6-29b5-4bb3-a1c3-4b95d99f0a9e)
 
+![7segmentdisplayconfig](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/cad3d61c-df9f-4155-98bd-dc3fbb7fc742)
 
 ### 3. Assembly Instructions for Automated Soap Dispenser
 

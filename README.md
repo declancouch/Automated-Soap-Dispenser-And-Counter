@@ -11,14 +11,14 @@ This repository contains my project for the Embedded Systems Design course. It i
 ### Demonstration Hardware
 - Arduino Board (Model)
 - Arduno Board to PC wire
-- 2 breadboards
-- 4 Male To Female Wires
+- 2 breadboard (1 for Arduino + HEX display and the other for the external power supply)
+- 4 Male To Female Wires (Used to Hold The LED's)
 - 25+ Male to Male Wires
 - ANNIMOS Digita RC Servo Motor (20kg)
 - Infrared Obstacle Avoidance Sensor
 - 4 Digit HEX Display (For usage count)
 - LEDs (Green for ready, Yellow for in use)
-- 4 1kΩ-5kΩ resistors (Any reistors in that range will do)
+- 4 1kΩ-5kΩ resistors (Any resistors in that range will do)
 - 9V power supply cord
 - Power Supply Breadboard
 - Crafting materials: Tape, super glue, plastic straw, hook screw, soap bottle, and wood

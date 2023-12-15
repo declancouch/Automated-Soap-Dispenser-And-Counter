@@ -37,7 +37,12 @@ The best way to go about building the Automated Soap Dispenser And Counter is th
 
 **NOT following this process will make the debugging process much more difficult** 
 
+
+
 ---
+
+
+
 
 
 ### 1. Software Instructions for The Automated Soap Dispenser & Counter
@@ -45,7 +50,13 @@ The best way to go about building the Automated Soap Dispenser And Counter is th
 
 [Download this code onto your Arduino compiler system](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/blob/34ed45a4a5e10d7ac9d816b988eacd39e0801649/Arduino%20Completed%20Soap%20Dispensor%20Code.ino)
 
+
+
+
 ---
+
+
+
 
 
 ### 2. Hardware Instructions for The Automated Soap Dispenser & Counter
@@ -100,7 +111,11 @@ Using the provided schematic shown below wire the Arduino exactly how it's shown
 ![7segmentdisplayconfig](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/cad3d61c-df9f-4155-98bd-dc3fbb7fc742)
 
 
+
+
 ---
+
+
 
 
 ### 3. Assembly Instructions for Automated Soap Dispenser

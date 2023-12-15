@@ -6,7 +6,7 @@ This repository contains my project for the Embedded Systems Design course. It i
 
 **Demonstration Video:**
 
-
+---
 
 ### Demonstration Hardware
 - Arduino Board (Model)
@@ -23,6 +23,9 @@ This repository contains my project for the Embedded Systems Design course. It i
 - Power Supply Breadboard
 - Crafting materials: Tape, super glue, plastic straw, hook screw, soap bottle, and wood
 
+  ---
+
+
 ## Easiest Process To Follow When Building The Automated Soap Dispenser And Counter
 The best way to go about building the Automated Soap Dispenser And Counter is through a 3-step process
 
@@ -34,11 +37,16 @@ The best way to go about building the Automated Soap Dispenser And Counter is th
 
 **NOT following this process will make the debugging process much more difficult** 
 
+---
+---
+
 
 ### 1. Software Instructions for The Automated Soap Dispenser & Counter
 
 
 [Download this code onto your Arduino compiler system](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/blob/34ed45a4a5e10d7ac9d816b988eacd39e0801649/Arduino%20Completed%20Soap%20Dispensor%20Code.ino)
+
+---
 
 
 ### 2. Hardware Instructions for The Automated Soap Dispenser & Counter
@@ -91,6 +99,9 @@ Using the provided schematic shown below wire the Arduino exactly how it's shown
 - Connect Segment Digit Pin 1 (D2) on the HEX display to Pin 12 on the Arduino
 
 ![7segmentdisplayconfig](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/cad3d61c-df9f-4155-98bd-dc3fbb7fc742)
+
+---
+
 
 ### 3. Assembly Instructions for Automated Soap Dispenser
 

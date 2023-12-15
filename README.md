@@ -4,7 +4,7 @@ This repository contains my project for the Embedded Systems Design course. It i
 
 ![IMG_4431](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/981b114b-daa5-4d49-abfb-55c60d34edd8)
 
-**Demonstration Video:**
+**Demonstration Video:** https://youtu.be/p4MaiMroa_E
 
 ---
 

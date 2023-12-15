@@ -157,5 +157,6 @@ Using the provided schematic shown below wire the Arduino exactly how it's shown
 
 11. **Rewrite The Circuit:** During the assembly process it's inevitable that wires will fall out during the process. So using the schematic from part 2, rewire everything that came apart. After that you're done, and you have your own automatic soap dispenser and LED system which counts the number of times it has been used.    
 
+![IMG_4435](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/5618ce4a-39ae-4a3a-9f56-6e685d8cad63)
 
 

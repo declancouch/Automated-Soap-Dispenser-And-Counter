@@ -2,7 +2,7 @@
 
 This repository contains my project for the Embedded Systems Design course. It involves an Arduino-based automated soap dispenser that counts usage and has an LED indicator system for operational status.
 
-![IMG_4431](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/981b114b-daa5-4d49-abfb-55c60d34edd8)
+![frontcopyof design](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/2f70f679-c081-4c33-a307-164ccd1e6e60)
 
 **Demonstration Video:** https://youtu.be/p4MaiMroa_E
 

@@ -99,6 +99,7 @@ Using the provided schematic shown below wire the Arduino exactly how it's shown
 
 ![7segmentdisplayconfig](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/cad3d61c-df9f-4155-98bd-dc3fbb7fc742)
 
+
 ---
 
 

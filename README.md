@@ -94,39 +94,38 @@ Using the provided schematic shown below wire the Arduino exactly how it's shown
 
 1. **Select a Soap Container:** Choose a soap container with flat sides and top for easier component attachment.
 
-![Desiredbottletype](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/7225edae-55a9-4681-afe3-4dc23e02fbc0)
+![Desiredbottletype](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/0ef27fcd-a874-435c-8deb-c3e7793db2c9)
 
   
 2. **Attach the Servo Motor:** Secure the 20kg servo motor to the left side of the bottle using super glue and duct tape. Ensure the motor is oriented correctly for its 270-degree rotation limit. Use a servo arm with a half-arm design to prevent interference with the bottle.
 
-![IMG_4395](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/83359afb-e277-4708-8670-388b809ee471)
-
+![IMG_4395](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/fb1e66d5-dede-4321-a990-4c1cfa667348)
 
 3. **Prepare a Block:** Cut a soft material block with dimensions of 1 inch x 1 inch x 1 inch. Screw a hook into the block manually.
 
-![hookandblockofwoodpic](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/7a85c3d8-5a1e-497d-ac85-74a39203b62e)
+![hookandblockofwoodpic](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/8303619c-750a-4c06-8b6c-8b6c7232a46c)
    
 4. **Mount the Block:** Attach the block to the right side of the bottle at a height similar to the servo motor, using super glue and duct tape. This ensures balanced force distribution.
 
-![IMG_4396](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/f20edf42-d663-464b-9491-54dc75b313d3)
+![IMG_4396](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/f494530b-09e0-49bb-a87b-4828d22d06d0)
 
 5. **Measure and Mark the String:** Use sewing string for its strength. Measure the required length for tension from the servo arm to the hook, marking it with a red marker.
   
 6. **Prepare the Straw:** Cut a small section of a plastic straw, ensuring it's not too long to avoid imbalance. Attach it to the top of the soap pump with duct tape. This straw piece prevents the string from slipping off during operation.
 
-![strawpic](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/ded32bae-9b6c-4920-a4eb-25521e3e8235)   
+![strawpic](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/6d084921-055d-4fce-a632-5788f5b4a444)
 
 7. **Attach the String:** Tie one end of the string to the hook at the marked spot. Thread the other end through the straw and tie it to the servo arm at the designated mark. Ensure the knots are tight to prevent slippage.
 
-![wirepic](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/abf02d55-77f4-44d6-9750-00e245327854)
+![wirepic](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/c2da657a-3c39-4fc0-9f76-19115bdc8461)
    
 8. **Position the Infrared Sensor:** Duct tape the infrared sensor at the top base level of the pump, where it can easily detect a hand. Ensure the tape does not cover the sensor's LEDs and the string does not obstruct its field of view.
 
-![IMG_4403](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/888bd3d4-1c12-49d1-9338-da1fee65a6dd)
+![IMG_4403](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/e7099a8d-2045-4c5f-a6b9-e8746fb746ab)
    
 10. **Install LED Indicators:** Use two sets of male-to-female wires. Duct tape the female ends to the sides of the bottle—one set on each side. Insert the yellow and green LEDs into these connectors, ensuring the duct tape does not touch the LED diodes, to maintain optimal brightness.
 
-![LEDsystem](https://github.com/declancouch/Automated-Soap-Dispenser-Counter/assets/145140758/aef1be2c-e393-491c-ad0f-db25136732a2)
+![LEDsystem](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/cd89e52e-af60-45b1-bd00-6c66b2e9075d)
 
 11. **Rewrite The Circuit:** During the assembly process it's inevitable that wires will fall out during the process. So using the schematic from part 2, rewire everything that came apart. After that you're done, and you have your own automatic soap dispenser and LED system which counts the number of times it has been used.    
 

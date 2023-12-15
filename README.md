@@ -106,7 +106,7 @@ Using the provided schematic shown below wire the Arduino exactly how it's shown
 - Connect Segment Digit Pin 2 (D2) on the HEX display to Pin 9 on the Arduino 
 - Connect Segment F on the HEX display to Pin 10 on the Arduino 
 - Connect Segment A on the HEX display to Pin 11 on the Arduino 
-- Connect Segment Digit Pin 1 (D2) on the HEX display to Pin 12 on the Arduino
+- Connect Segment Digit Pin 1 (D1) on the HEX display to Pin 12 on the Arduino
 
 ![7segmentdisplayconfig](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/cad3d61c-df9f-4155-98bd-dc3fbb7fc742)
 

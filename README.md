@@ -21,21 +21,21 @@ This repository contains my project for the Embedded Systems Design course. It i
 - 4 1kΩ-5kΩ resistors (Any resistors in that range will do)
 - 9V power supply cord
 - Power Supply Breadboard
-- Crafting materials: Tape, super glue, plastic straw, hook screw, soap bottle, and wood
+- Crafting materials: tape, super glue, plastic straw, hook screw, rectangular soap bottle, and wood
 
   ---
 
 
 ## Easiest Process To Follow When Building The Automated Soap Dispenser And Counter
-The best way to go about building the Automated Soap Dispenser And Counter is through a 3-step process
+The best way to go about building the Automated Soap Dispenser And Counter is through a 3-step process.
 
-1. Build the software and ensure that everything is compiling correctly
+1. Build the software and ensure that everything is compiling correctly.
 
-2. Using the Arduino hardware, wire your microprocessor based on your software arrangements so the pins and signals communicate in rhythm with the code. Next, download the code onto the board and ensure the infrared sensor is activating the yellow LED HEX display and servo motor when an object gets near it.
+2. Using the Arduino hardware, wire your microprocessor based on your software arrangements so the pins and signals communicate in rhythm with the code. Next, download the code onto the board and ensure that when an object activates the infrared sensor the yellow LED, HEX display, and servo motor all activate as well.
 
-3. Once you know that your code and hardware are working properly, then go ahead and assemble the physical soap dispenser so the components can come together to form an automated soap dispenser that counts the number of times it has been used
+3. Once you know that your code and hardware are working properly, go ahead and assemble the physical soap dispenser so the components can come together to form an automated soap dispenser that counts the number of times it has been used.
 
-**NOT following this process will make the debugging process much more difficult** 
+**NOT following this process will make the debugging process much more difficult!** 
 
 
 
@@ -61,52 +61,52 @@ The best way to go about building the Automated Soap Dispenser And Counter is th
 
 ### 2. Hardware Instructions for The Automated Soap Dispenser & Counter
 
-Using the provided schematic shown below wire the Arduino exactly how it's shown.
+Using the schematic shown below wire the Arduino exactly how it's shown.
 ![Servo Motor (1)](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/8a729bc1-4a63-4fd9-bb49-1413506816e6)
 ![hardschematic](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/cff6ab99-e802-40eb-b9fc-b542e1ba81ac)
 
 
 
 #### Setting up power supply(Use the image below as reference):
-- Snap the power supply board into your breadboard
-- Plug your 9V power supply cord into the outlet, then the other end into your power supply board 
-- Using a wire, plug one end of the wire into the ground side of the power supply and the other end into the ground of the Arduino. You must incorporate this or their will be a short circuit within your hardware and it won't work
-- Press the white button on the power supply to turn it on
+- Snap the power supply board into your breadboard.
+- Plug your 9V power supply cord into the outlet, then the other end into your power supply board. 
+- Using a wire, plug one end of the wire into the ground side of the power supply and the other end into the ground of the Arduino. You must incorporate this or there will be a short circuit within your hardware and it won't work.
+- Press the white button on the power supply to turn it on.
   
 ![9vbatterysetup](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/96e0f5af-a386-4aa5-b7e9-33c16bc0f541)
 
 
 #### Servo:
-- On the servo motor connect the white wire to analog Pin A2, this way you can establish a way to communicate with the servo
+- On the servo motor connect the white wire to analog Pin A2, this way you can establish a way to communicate with the servo.
 - Connect the red wire to the voltage pin on the 9V power supply. Just know if you connect this wire to the 5V on the Arduino, the servo will not run because the Arduino doesn't provide enough current to support a 20kg servo.
-- Connect the black wire to the ground point of the 9V power supply
+- Connect the black wire to the ground point of the 9V power supply.
 
 #### Infrared Sensor:
 - Connect the "+Out" pin on the sensor analog Pin A0.
-- Connect the "GND" pin on the sensor to the ground pin on the Arduino
-- Connect the "Vcc" pin on the sensor to the 5V pin on the Arduino
+- Connect the "GND" pin on the sensor to the ground pin on the Arduino.
+- Connect the "Vcc" pin on the sensor to the 5V pin on the Arduino.
 
 #### Red LED:
-- Connect the anode side (longer side) of the LED to the analog Pin A5
-- Connect the cathode side (short side) of the LED to the ground on the Arduino
+- Connect the anode side (longer side) of the LED to the analog Pin A5.
+- Connect the cathode side (short side) of the LED to the ground on the Arduino.
 
 #### Yellow LED:
-- Connect the anode side (longer side) of the LED to the analog Pin A5
-- Connect the cathode side (short side) of the LED to the ground on the Arduino
+- Connect the anode side (longer side) of the LED to the analog Pin A5.
+- Connect the cathode side (short side) of the LED to the ground on the Arduino.
 
-#### 4 Digit HEX Display (use the image below to understand which segment/digit corresponds to each pin on the display):
-- Connect Segment E on the HEX display to Pin 13 on the Arduino 
-- Connect Segment D on the HEX display to Pin 2 on the Arduino 
-- Connect Segment Decimal Pin (D.P.) on the HEX display to Pin 3 on the Arduino 
-- Connect Segment C on the HEX display to Pin 4 on the Arduino 
-- Connect Segment G on the HEX display to Pin 5 on the Arduino 
-- Connect Segment Digit Pin 4 (D4) on the HEX display to Pin 6 on the Arduino 
-- Connect Segment B on the HEX display to Pin 7 on the Arduino 
-- Connect Segment Digit Pin 3 (D3) on the HEX display to Pin 8 on the Arduino 
-- Connect Segment Digit Pin 2 (D2) on the HEX display to Pin 9 on the Arduino 
-- Connect Segment F on the HEX display to Pin 10 on the Arduino 
-- Connect Segment A on the HEX display to Pin 11 on the Arduino 
-- Connect Segment Digit Pin 1 (D1) on the HEX display to Pin 12 on the Arduino
+#### 4 Digit HEX Display (Use the image below to understand which segment/digit corresponds to each pin on the HEX display):
+- Connect Segment E on the HEX display to Pin 13 on the Arduino. 
+- Connect Segment D on the HEX display to Pin 2 on the Arduino. 
+- Connect Segment Decimal Pin (D.P.) on the HEX display to Pin 3 on the Arduino. 
+- Connect Segment C on the HEX display to Pin 4 on the Arduino. 
+- Connect Segment G on the HEX display to Pin 5 on the Arduino. 
+- Connect Segment Digit Pin 4 (D4) on the HEX display to Pin 6 on the Arduino. 
+- Connect Segment B on the HEX display to Pin 7 on the Arduino. 
+- Connect Segment Digit Pin 3 (D3) on the HEX display to Pin 8 on the Arduino. 
+- Connect Segment Digit Pin 2 (D2) on the HEX display to Pin 9 on the Arduino. 
+- Connect Segment F on the HEX display to Pin 10 on the Arduino. 
+- Connect Segment A on the HEX display to Pin 11 on the Arduino. 
+- Connect Segment Digit Pin 1 (D1) on the HEX display to Pin 12 on the Arduino.
 
 ![7segmentdisplayconfig](https://github.com/declancouch/Automated-Soap-Dispenser-And-Counter/assets/145140758/cad3d61c-df9f-4155-98bd-dc3fbb7fc742)
 
